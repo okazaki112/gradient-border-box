@@ -113,21 +113,8 @@ box.addEventListener('animation-pause', () => console.log('paused'));
 |--------|---------|--------|------|
 | 54+ | 63+ | 10.1+ | 15+ |
 
-## File Structure
 
-```
-├── gradient-border-box.js    # Component source
-├── example.html              # Demo & sandbox (Chinese)
-├── example.en.html           # Demo & sandbox (English)
-├── verify.js                 # Validation script
-└── README.en.md              # This file
-```
 
-## Local Validation
-
-```bash
-node verify.js
-```
 
 Open `example.html` or `example.en.html` in a browser to preview all demos.
 
